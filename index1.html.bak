@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" class="menuitem-active">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+	<link rel="stylesheet" href="vendor/bootstrap-4.3.1-dist/css/bootstrap.min.css" />
+	<script type="text/javascript" src="vendor/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="vendor/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />	
+	<title>Webpos</title>
+	<style>
+		.wrapper{
+			height: 100%;
+			overflow: hidden;
+			width: 100%;
+		}
+
+		.leftside-menu{
+			width:260px;
+			z-index:10;
+			top:0;
+			bottom:0;
+			position:fixed;
+			padding-top:70px;
+		}
+	</style>
+</head>
+<body>	
+	<div class="wrapper">
+		<div class="leftside-menu">
+			left side menu
+		</div>
+		<div class="rightside-page">
+			right side page
+		</div>
+	</div>
+</body>
+</html>

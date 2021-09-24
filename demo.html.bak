@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="vendor/jquery-3.2.1.min.js"></script>
+<title>Demo</title>
+</head>
+<body>
+	<p>demo page.</p>
+
+<script>
+	!function(x,y){
+		var result;
+		result=x*y
+		alert(result);
+	}(4,5);
+	
+	(function(a,b){
+		result=a+b;
+		alert(result);
+	}(5,6));
+	
+	var o=new Object();
+	o.id=1;
+
+	alert(o);
+
+</script>
+</body>
+</html>

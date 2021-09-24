@@ -1,0 +1,19 @@
+body {
+    font-family: Nunito,sans-serif;
+}
+
+.wrapper {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.leftside-menu {
+    width:260px;
+    z-index:10;
+    top:0;
+    bottom:0;
+    position:fixed;
+    padding-top:70px;
+    background:#313a46;
+}
