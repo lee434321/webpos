@@ -1,0 +1,90 @@
+body {
+    font-family: Nunito,sans-serif;
+}
+/* 框架定义*/
+.wrapper {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.leftside-menu {
+    width:260px;
+    z-index:10;
+    top:0;
+    bottom:0;
+    position:fixed;
+    padding-top:70px;
+    background:#313a46;
+}
+
+.logo {
+    display: block;
+    line-height: 70px;
+    width: 260px;
+    position: fixed;
+    top: 0;
+}
+
+.h-100 {
+    height: 100%!important;
+}
+[data-simplebar] {
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.simplebar-wrapper {
+    overflow: hidden;
+    width: inherit;
+    height: inherit;
+    max-width: inherit;
+    max-height: inherit;
+}
+
+.simplebar-mask {
+    direction: inherit;
+    position: absolute;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: auto!important;
+    height: auto!important;
+    z-index: 0;
+}
+.simplebar-content-wrapper {
+    direction: inherit;
+    -webkit-box-sizing: border-box!important;
+    box-sizing: border-box!important;
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 260px;
+    overflow: hidden scroll;
+    max-width: 100%;
+    max-height: 100%;
+    scrollbar-width: none;
+}
+
+.simplebar-content{
+    position: relative;
+    right: 0;
+    color: tomato;
+}
